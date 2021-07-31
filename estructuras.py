@@ -142,7 +142,7 @@ while count<n:
     count=count+1
 '''
 #calcular la serie sde letras 
-
+'''
 n=int(input('ingrese la cantidad de series de la forma ABABAB....: '))
 count=0
 l='A'
@@ -155,3 +155,19 @@ while count<n:
         l='A'
         
     count=count+1
+'''
+#calcular fibonaci de un numero
+
+n=int(input('ingresa un numero para hallar su fibonaci: '))
+w1=1
+w2=1
+suma=0
+count=0
+while count<n:
+    suma=w1+w2
+    print(w1,' + ',w2,' = ',suma)
+    w1=w2
+    w2=suma
+    count=count+1
+    
+
